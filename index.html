@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The engineering portfolio of Sarthak Srivastava." />
+    <title>Sarthak Srivastava — Mechatronics Engineering Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Sarthak Srivastava, home">SS<span>.</span></a>
+        <nav aria-label="Primary navigation">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="resume.html">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="header-cta" href="#contact">Let’s connect <span>↗</span></a>
+      </header>
+
+      <aside class="development-notice" aria-label="Website development status">
+        <strong>Under development</strong>
+        <span>This website is continually being worked on and updated.</span>
+      </aside>
+
+      <main id="top">
+        <section class="hero" id="about" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <div class="hero-meta"><span class="pulse"></span> Mechatronics engineering student <span class="meta-divider">/</span> Canada</div>
+            <h1 id="hero-title">Sarthak<br /><em>Srivastava.</em></h1>
+            <p class="hero-intro">I design, iterate, and prototype systems that turn ambitious ideas into clear, reliable physical solutions.</p>
+            <dl class="hero-facts">
+              <div><dt>Current focus</dt><dd>Robotics, mechanical &amp; electrical design</dd></div>
+              <div><dt>Working method</dt><dd>Design · Iterate · Prototype</dd></div>
+            </dl>
+            <a class="hero-work-link" href="#work">Explore selected work <span>↓</span></a>
+          </div>
+          <figure class="hero-portrait">
+            <img src="assets/headshot.JPG" alt="Sarthak Srivastava" />
+            <span class="portrait-index">Profile / 01</span>
+            <figcaption>Design / Iterate / Prototype</figcaption>
+          </figure>
+        </section>
+
+        <section class="intro-strip" aria-label="Engineering process">
+          <span>01 / DESIGN</span><span>02 / ITERATE</span><span>03 / PROTOTYPE</span>
+        </section>
+
+        <section class="work section" id="work" aria-labelledby="work-title">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2 id="work-title">Built to move<br />with purpose.</h2>
+            <p class="section-copy">A selection of systems where engineering decisions need to hold up beyond the screen.</p>
+          </div>
+
+          <div class="timeline" aria-label="Project timeline">
+            <article class="timeline-entry timeline-entry-left" tabindex="0">
+              <div class="timeline-card">
+                <p class="project-kicker">Project 01 <span>/</span> In progress</p>
+                <h3>Temperature control system</h3>
+                <p>Developing a thermal haptic-feedback system for a myoelectric prosthetic hand, designed to communicate temperature through controlled heating and cooling.</p>
+                <span class="card-prompt">Hover for details <b>→</b></span>
+              </div>
+              <div class="timeline-marker"><span>01</span></div>
+              <aside class="timeline-details">
+                <p class="detail-label">Project approach</p>
+                <p>A thermistor, control loop, and thermoelectric driver form the thermal-feedback path from the prosthetic hand to the wearer.</p>
+                <a class="project-diagram" href="assets/temperature_control_system/temperature_control_system_flowchart.png" target="_blank" rel="noopener">
+                  <img src="assets/temperature_control_system/temperature_control_system_flowchart.png" alt="Flowchart for the temperature control system" />
+                  <span>View system flowchart ↗</span>
+                </a>
+                <div><span>Design</span><strong>Thermal feedback architecture</strong></div>
+                <div><span>Iterate</span><strong>Evaluate components and form factors</strong></div>
+                <div><span>Prototype</span><strong>In development</strong></div>
+              </aside>
+            </article>
+
+            <article class="timeline-entry timeline-entry-right" tabindex="0">
+              <div class="timeline-card">
+                <p class="project-kicker">Project 02 <span>/</span> January 2026 – April 2026</p>
+                <h3>Electronic Load Box</h3>
+                <p>A portable DC electronic load developed for internal testing, using a compact Altium PCB and linear MOSFET control to manage power dissipation in a smaller footprint.</p>
+                <span class="card-prompt"><b>←</b> Hover for details</span>
+              </div>
+              <div class="timeline-marker"><span>02</span></div>
+              <aside class="timeline-details">
+                <p class="detail-label">Project approach</p>
+                <p>I translated the needs of common test setups into a purpose-built load platform, using LTspice studies and component data to balance size, operating limits, and dependable thermal performance.</p>
+                <a class="project-diagram project-render" href="assets/electronic_load_box/electronic_load_box.png" target="_blank" rel="noopener">
+                  <img src="assets/electronic_load_box/electronic_load_box.png" alt="Electronic Load Box PCB layout" />
+                  <span>View PCB layout ↗</span>
+                </a>
+                <div><span>Design</span><strong>Compact linear-MOSFET load architecture</strong></div>
+                <div><span>Iterate</span><strong>Modelled operating limits in LTspice</strong></div>
+                <div><span>Prototype</span><strong>Functional PCB; 150 W continuous / 400 W capable</strong></div>
+              </aside>
+            </article>
+
+            <article class="timeline-entry timeline-entry-left" tabindex="0">
+              <div class="timeline-card">
+                <p class="project-kicker">Project 03 <span>/</span> Sidus Robotics September 2024 - September 2026</p>
+                <h3>Mars rover chassis &amp; suspension</h3>
+                <p>Led the mechanical design of a lightweight Mars rover chassis and suspension system, balancing structural strength, available materials, and build cost.</p>
+                <span class="card-prompt">Hover for details <b>→</b></span>
+              </div>
+              <div class="timeline-marker"><span>03</span></div>
+              <aside class="timeline-details">
+                <p class="detail-label">Project approach</p>
+                <p>I guided the rover structure from early research through integration, coordinating mechanical decisions with electrical and software constraints as the design moved toward a working vehicle.</p>
+                <a class="project-diagram project-render" href="assets/sidus_mars_rover/mars_rover_cropped.jpg" target="_blank" rel="noopener">
+                  <img src="assets/sidus_mars_rover/mars_rover_cropped.jpg" alt="Sidus Robotics Mars rover chassis and suspension prototype" />
+                  <span>View rover prototype ↗</span>
+                </a>
+                <div><span>Design</span><strong>Lightweight chassis and suspension system</strong></div>
+                <div><span>Iterate</span><strong>Refined parts through printing and stress testing</strong></div>
+                <div><span>Prototype</span><strong>First prototype completed and drive-tested</strong></div>
+              </aside>
+            </article>
+
+            <article class="timeline-entry timeline-entry-right" tabindex="0">
+              <div class="timeline-card">
+                <p class="project-kicker">Project 04 <span>/</span> Eastern Edge Robotics</p>
+                <h3>ROV chassis &amp; thruster mounts</h3>
+                <p>Designed a compact, lightweight, and structurally robust ROV chassis and thruster mounts for Eastern Edge Robotics, engineered to withstand multi-axial loading.</p>
+                <span class="card-prompt"><b>←</b> Hover for details</span>
+              </div>
+              <div class="timeline-marker"><span>04</span></div>
+              <aside class="timeline-details">
+                <p class="detail-label">Project approach</p>
+                <p>The system balances compactness, structural strength, and rapid reconfiguration for mission-specific tooling.</p>
+                <a class="project-diagram project-render" href="assets/eastern_edge_robotics/eer_chassis_assembly.jpg" target="_blank" rel="noopener">
+                  <img src="assets/eastern_edge_robotics/eer_chassis_assembly.jpg" alt="Assembly render of the Eastern Edge Robotics ROV chassis and thruster mounts" />
+                  <span>View chassis render ↗</span>
+                </a>
+                <div><span>Design</span><strong>Modular chassis and thruster mounts</strong></div>
+                <div><span>Iterate</span><strong>Adapt the previous ROV to new requirements</strong></div>
+                <div><span>Prototype</span><strong>Delivered for field deployment</strong></div>
+              </aside>
+            </article>
+
+          </div>
+        </section>
+
+        <section class="toolkit section" aria-labelledby="toolkit-title">
+          <p class="eyebrow">Operating environment</p>
+          <h2 id="toolkit-title">The tools behind<br />the work.</h2>
+          <dl>
+            <div><dt>Mechanical</dt><dd>Fusion 360 · Onshape · Inventor · SolidWorks</dd></div>
+            <div><dt>Electrical</dt><dd>Altium Designer · KiCad · LTspice</dd></div>
+            <div><dt>Robotics</dt><dd>ROV systems · Rover design · Actuation · Integration</dd></div>
+            <div><dt>Collaboration</dt><dd>Cross-functional design · Mentorship · Iterative prototyping</dd></div>
+          </dl>
+        </section>
+
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Have a system<br />worth building?</h2>
+          <p>I’m always interested in meeting people working on challenging hardware, robots, and products.</p>
+          <a class="contact-link" href="mailto:hello@example.com">Start a conversation <span>↗</span></a>
+          <p class="contact-note">Email address and social links to be added.</p>
+        </section>
+      </main>
+
+      <footer><span>© 2026 Sarthak Srivastava</span><span>Designed &amp; built with intent</span></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
